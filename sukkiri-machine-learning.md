@@ -6,10 +6,9 @@
     - ex. 画像から動物名を予測するための法則をコンピューターに自動で探させることが出来る
 
     - **大量の画像データが必要**
-        - 入力データと答えのデータのペアが必要で、教師データ（Training Data）という
-
-            - 回帰（Regression）
-            - 分類（classification）
+    - 入力データと答えのデータのペアが必要で、教師データ（Training Data）という
+        - 回帰（Regression）
+        - 分類（classification）
 
 
 - ### 教師なし学習（Unsupervised Learning）
