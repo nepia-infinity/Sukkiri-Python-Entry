@@ -7,5 +7,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
-print(df.shape) # 行数や列数を調べるメソッド
+print(df.shape) # 行数や列数を調べるメソッド extected outpoot(2, 2)
+print(df.index) # 行数や列数を調べるメソッド
 
