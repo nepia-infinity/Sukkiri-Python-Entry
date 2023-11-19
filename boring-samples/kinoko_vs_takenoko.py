@@ -41,4 +41,4 @@ taro = pd.DataFrame([[170, 70, 20]], columns=['身長', '体重', '年代'])
 
 # taroがどちらに分類されるか予測する
 denomination = model.predict(taro) 
-print(denomination)
+print(f"taroの派閥は、{denomination[0]}です。")
