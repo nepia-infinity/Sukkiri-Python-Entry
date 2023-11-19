@@ -36,9 +36,8 @@ model = tree.DecisionTreeClassifier(random_state = 0)
 
 # 学習の実行
 model.fit(x, t)
-taro = pd.DataFrame([[170, 70, 20]], columns=['身長', '体重', '年代'])
-
 
 # taroがどちらに分類されるか予測する
+taro = pd.DataFrame([[170, 70, 20]], columns=['身長', '体重', '年代'])
 denomination = model.predict(taro) 
 print(f"taroの派閥は、{denomination[0]}です。")
