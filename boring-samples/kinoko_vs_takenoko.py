@@ -2,6 +2,7 @@ import pandas as pd
 import sklearn
 from sklearn import tree
 
+print(sklearn.__file__)
 
 # フルパスを指定
 path = r'C:\Users\nepia\OneDrive\ドキュメント\Sukkiri-Python-Entry\sukkiri-ml-codes\datafiles\KvsT.csv'
